@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import HCPro from '../../assets/images/hcpro.jpg'
 
-export function Step3(scroll) {
+export function Step3Mobile(scroll) {
 
     const { t } = useTranslation();
 

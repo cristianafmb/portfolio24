@@ -5,10 +5,10 @@
 }
 
 .container-cv {
-    height: 500vh;
+    height: 250vh;
     max-width: 99vw;
     overflow: hidden;
-    border: 1px solid red;
+  //  border: 1px solid red;
 
     .container-cv-inner {
         top: 0;
@@ -68,5 +68,23 @@ circle {
         display: grid;
         align-content: center;
         height: 100vh;
+    }
+
+    .container-get-in-touch{
+        svg{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .container-step5-inner{
+        height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+
+    @media (max-width: 990px){
+        .container-left-step {
+            height: 50vh;
+        }
     }
 }

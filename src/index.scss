@@ -66,6 +66,38 @@ article {
   transform-origin: 0%;
 }
 
-.overflow-hidden{
+.overflow-hidden {
   overflow: hidden;
+}
+
+@keyframes pulse {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.01;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+
+.container-email {
+  animation-delay: 0s;
+}
+
+.container-phone {
+  animation-delay: 0.5s;
+}
+
+.container-message {
+  animation-delay: 1s;
+}
+
+.icon-pulse {
+  animation: pulse 1.5s ease-out;
+  animation-iteration-count: infinite;
 }

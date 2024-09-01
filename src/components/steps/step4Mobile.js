@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import Invisual from '../../assets/images/invisual.jpg'
 
-export function Step4(scroll) {
+export function Step4Mobile(scroll) {
 
     const { t } = useTranslation();
 

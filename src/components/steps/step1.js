@@ -1,10 +1,8 @@
-import { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion"
-import { Col, Row } from "react-bootstrap";
+import { motion } from "framer-motion"
+import { Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 import CV from '../../assets/images/cv.png'
-import UFP from '../../assets/images/fernando_pessoa_university.jpg'
 
 export function Step1(scroll) {
 
@@ -19,7 +17,7 @@ export function Step1(scroll) {
                             initial={{ opacity: 1, translateY: '-100vh', position: 'relative', zIndex: '10' }}
                             animate={{
                                 opacity: scroll?.scroll >= 0 && scroll?.scroll < 0.18 ? 1 : 0,
-                                translateY: (scroll?.scroll >= 0.05 && scroll?.scroll <= 0.19) ? ((scroll?.scroll * -800) + 'vh') : '0vh'
+                                translateY: (scroll?.scroll >= 0.14 && scroll?.scroll <= 0.19) ? ((scroll?.scroll * -800) + 'vh') : '0vh'
                             }}
                             exit={{ opacity: 0 }}
                         >
@@ -32,12 +30,12 @@ export function Step1(scroll) {
             </Col>
             <Col sm="12" md="8" lg="8" className="position-relative overflow-hidden">
 
-                {(scroll?.scroll >= 0 && scroll?.scroll < 0.139) &&
+                {(scroll?.scroll >= 0 && scroll?.scroll < 0.18) &&
                     <motion.div
                         initial={{ opacity: 1, translateX: '15vw', position: 'relative', zIndex: '10' }}
                         animate={{
-                            opacity: scroll?.scroll >= 0 && scroll?.scroll < 0.13 ? 1 : 0,
-                            translateX: (scroll?.scroll >= 0 && scroll?.scroll < 0.14) ? ((scroll?.scroll * 700) + 15 + 'vw') : '15vw'
+                            opacity: scroll?.scroll >= 0 && scroll?.scroll < 0.18 ? 1 : 0,
+                            translateX: (scroll?.scroll >= 0.15 && scroll?.scroll < 0.18) ? ((scroll?.scroll * 700) + 15 + 'vw') : '15vw'
                         }}
                         exit={{ opacity: 0, translateX: '100vw', zIndex: '-10' }}
                     >
