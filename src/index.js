@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Footer } from "./template/Footer";
+import { Header } from './template/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
+    <Header  />
     <App />
+    {/**<Footer title="Cristiana Baiorte" />**/}
   </React.StrictMode>
 );
 

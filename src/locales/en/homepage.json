@@ -1,0 +1,20 @@
+{
+    "firstQuestion": "Curious about a passionate developer?",
+    "secondQuestion": "Curious about a coding enthusiast and problem solver?",
+    "thirdQuestion": "Curious about a team player who thrives in collaborative environments?",
+    "fourthQuestion": "Curious about Cristiana?",
+    "job": "Web Developer",
+    "passion":"Highly motivated developer, always willing to learn new things.<br />Always looking for ways to improve her skills and willing to help others.<br />She is looking for a job that can make me help others, and be part of something bigger.",
+    "more": "+ more",
+    "step1Title": "Hold onto your hats!",
+    "step1Subtitle": "Let's discover Critiana's journey.",
+    "step2Title": "Computer Engineer",
+    "step2Subtitle": "Bachelor's degree",
+    "step2Text": "Cristiana joined the world of tech with a Computer Engineering degree in hand in 2020.",
+    "step3Title": "IEFP internship: HCPro",
+    "step3Subtitle": "2021 (9 months)",
+    "step3Text": "Gained hands-on experience with PHP, Symfony, and Laravel frameworks while developing a robust CRM for the real estate sector. Leveraged MariaDB for data management and integrated with external APIs, including Idealista, to enhance system functionality.",
+    "step4Title": "Invisual Branding Solutions",
+    "step4Subtitle": "2021 - present",
+    "step4Text": "Skilled in designing and implementing scalable web applications using HTML, CSS, JavaScript, React.js, Node.js, and GraphQL. Successfully manage the development and maintenance of multiple projects."
+}

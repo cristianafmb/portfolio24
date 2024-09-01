@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+hr {
+    display: block;
+    height: 0.5vh;
+    border: 0;
+    border-top: 1px solid #ccc !important;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.line-height-16 {
+    line-height: 1.6;
+}
+
+.container-icons{
+    display: grid;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    .container-each-icons{
+        display: inline-flex;
+        border: 1px solid rgba(255,255,255,0.3);
+        border-radius: 5%;
+        margin: 0 0.5vw;
+        height: 3rem;
+        width: 3.5rem;
+        vertical-align: middle;
+        align-items: center;
+        img{
+            height: 100%;
+            width: 100%;
+            padding: 0.6rem;
+            object-fit: contain !important;
+        }
+    }
+}
+
+.opacity-50{
+    opacity: 0.5;
+}
