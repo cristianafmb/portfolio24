@@ -1,5 +1,7 @@
 **https://portfolio.cris-portfolio.pt/**
 
+Status: on-going
+
 ## React Front-End Development Portfolio
 
 Hello! I'm Cristiana, passionate about creating intuitive and visual web interfaces. With years of experience in front-end development, I have dedicated myself to building React applications that provide incredible user experiences.
